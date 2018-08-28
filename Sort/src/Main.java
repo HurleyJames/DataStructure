@@ -30,12 +30,6 @@ public class Main {
             default:
                 break;
         }
-        //BubbleSort.bubbleSort(arr);
-        //QuickSort.quickSort(arr,0,arr.length-1);
-        //SelectionSort.selectionSort(arr);
-        //InsertSort.insertSort(arr);
-        //ShellSort.shellSort1(arr);
-        //ShellSort.shellSort2(arr);
 
         //输出排序后的数组
         for(int num:arr){
