@@ -98,6 +98,11 @@ public class StackType {
         return s.data[s.top--];
     }
 
+    /**
+     * 读取结点数据
+     * @param stackType
+     * @return
+     */
     DATA peek(StackType stackType){
         if(stackType.top==0){
             System.out.println("栈为空！\n");
