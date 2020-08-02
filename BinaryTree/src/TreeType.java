@@ -1,34 +1,44 @@
 import java.util.Scanner;
 
-//定义二叉树结点类型
+/**
+ * 定义二叉树结点类型
+ */
 public class TreeType {
-    //最大长度
-    static final int MAXLEN=20;
+    /**
+     * 最大长度
+     */
+    static final int MAXLEN = 20;
 
-    //元素数据
+    /**
+     * 元素数据
+     */
     String data;
-    //左子树结点引用
+    /**
+     * 左子树结点引用
+     */
     TreeType left;
-    //右子树结点引用
+    /**
+     * 右子树结点引用
+     */
     TreeType right;
 
     /**
      * 初始化二叉树的根
+     *
      * @return
      */
-    TreeType initTree(){
+    TreeType initTree() {
         TreeType node;
-        Scanner input=new Scanner(System.in);
-        if((node=new TreeType())!=null){
+        Scanner input = new Scanner(System.in);
+        if ((node = new TreeType()) != null) {
             System.out.println("请先输入一个根结点数据：\n");
-            node.data=input.next();
-            node.left=null;
-            node.right=null;
+            node.data = input.next();
+            node.left = null;
+            node.right = null;
             //如果二叉树根节点不为空
-            if(node!=null){
+            if (node != null) {
                 return node;
-            }
-            else{
+            } else {
                 return null;
             }
         }
@@ -39,29 +49,26 @@ public class TreeType {
      * 查找节点
      * 输入参数为treeNode为待查找的二叉树的根结点，输入参数data为待查找的结点数据
      * 首先判断根结点是否为空，然后分别向左、右子树递归查找
+     *
      * @param treeNode
      * @param data
      * @return
      */
-    TreeType treeFindNode(TreeType treeNode,String data){
+    TreeType treeFindNode(TreeType treeNode, String data) {
         TreeType tree;
 
-        if(treeNode==null){
+        if (treeNode == null) {
             return null;
-        }
-        else{
-            if(treeNode.data.equals(data)){
+        } else {
+            if (treeNode.data.equals(data)) {
                 return treeNode;
-            }
-            else{
-                //分别向左右子树递归查找
-                if((tree=treeFindNode(treeNode.left,data))!=null){
+            } else {
+                // 分别向左右子树递归查找
+                if ((tree = treeFindNode(treeNode.left, data)) != null) {
                     return tree;
-                }
-                else if((tree=treeFindNode(treeNode.right,data))!=null){
+                } else if ((tree = treeFindNode(treeNode.right, data)) != null) {
                     return tree;
-                }
-                else{
+                } else {
                     return null;
                 }
             }
@@ -71,62 +78,60 @@ public class TreeType {
     /**
      * 添加结点
      * 输入结点数据，指定其父结点以及添加的结点是作为左子树还是右子树
+     *
      * @param treeNode
      */
-    void addTreeNode(TreeType treeNode){
-        //      当前结点 父结点
-        TreeType pnode,parent;
-        //数据
+    void addTreeNode(TreeType treeNode) {
+        //       当前结点 父结点
+        TreeType pnode, parent;
+        // 数据
         String data;
-        //选项
+        // 选项
         int menu;
 
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
-        //分配内存
-        if((pnode=new TreeType())!=null){
+        // 分配内存
+        if ((pnode = new TreeType()) != null) {
             System.out.println("输入二叉树结点数据：\n");
-            pnode.data=input.next();
+            pnode.data = input.next();
             //设置左右子树为空
-            pnode.left=null;
-            pnode.right=null;
+            pnode.left = null;
+            pnode.right = null;
 
             System.out.println("输入该结点的父结点数据：\n");
-            data=input.next();
+            data = input.next();
 
-            //查找指定数据的结点
-            parent=treeFindNode(treeNode,data);
-            if(parent==null){
+            // 查找指定数据的结点
+            parent = treeFindNode(treeNode, data);
+            if (parent == null) {
                 System.out.println("未找到该父结点！\n");
-                //释放创建的结点内存
-                pnode=null;
-                return ;
+                // 释放创建的结点内存
+                pnode = null;
+                return;
             }
             System.out.println("1.添加该结点到左子树\n2.添加该结点到右子树\n");
-            do{
-                menu=input.nextInt();
-                if(menu==1||menu==2){
-                    if(parent==null){
+            do {
+                menu = input.nextInt();
+                if (menu == 1 || menu == 2) {
+                    if (parent == null) {
                         System.out.println("不存在父结点，请先设置父结点！\n");
-                    }
-                    else{
-                        switch (menu){
+                    } else {
+                        switch (menu) {
                             case 1:
-                                //添加左结点
-                                if(parent.left!=null){
+                                // 添加左结点
+                                if (parent.left != null) {
                                     System.out.println("左子树结点不为空！\n");
-                                }
-                                else{
-                                    parent.left=pnode;
+                                } else {
+                                    parent.left = pnode;
                                 }
                                 break;
                             case 2:
-                                //添加右结点
-                                if(parent.right!=null){
+                                // 添加右结点
+                                if (parent.right != null) {
                                     System.out.println("右子树结点不为空！\n");
-                                }
-                                else{
-                                    parent.right=pnode;
+                                } else {
+                                    parent.right = pnode;
                                 }
                                 break;
                             default:
@@ -134,49 +139,49 @@ public class TreeType {
                         }
                     }
                 }
-            }while (menu!=1&&menu!=2);
+            } while (menu != 1 && menu != 2);
         }
     }
 
     /**
      * 获取左子树
+     *
      * @param treeNode
      * @return
      */
-    TreeType treeNodeLeft(TreeType treeNode){
-        if(treeNode!=null){
+    TreeType treeNodeLeft(TreeType treeNode) {
+        if (treeNode != null) {
             return treeNode.left;
-        }
-        else{
+        } else {
             return null;
         }
     }
 
     /**
      * 获取右子树
+     *
      * @param treeNode
      * @return
      */
-    TreeType treeNodeRight(TreeType treeNode){
-        if(treeNode!=null){
+    TreeType treeNodeRight(TreeType treeNode) {
+        if (treeNode != null) {
             return treeNode.right;
-        }
-        else{
+        } else {
             return null;
         }
     }
 
     /**
      * 判断是否为空树
+     *
      * @param treeNode
      * @return
      */
-    int treeIsEmpty(TreeType treeNode){
-        if(treeNode!=null){
+    int treeIsEmpty(TreeType treeNode) {
+        if (treeNode != null) {
             //不为空
             return 0;
-        }
-        else{
+        } else {
             //为空
             return 1;
         }
@@ -184,100 +189,103 @@ public class TreeType {
 
     /**
      * 二叉树深度
+     *
      * @param treeNode
      * @return
      */
-    int treeDepth(TreeType treeNode){
-        int depthLeft,depthRight;
-        if(treeNode==null){
-            //空树的深度为0
+    int treeDepth(TreeType treeNode) {
+        int depthLeft, depthRight;
+        if (treeNode == null) {
+            // 空树的深度为0
             return 0;
-        }
-        else{
-            //左子树深度（递归调用）
-            depthLeft=treeDepth(treeNode.left);
-            //右子树深度（递归调用）
-            depthRight=treeDepth(treeNode.right);
-            if(depthLeft>depthRight){
-                return depthLeft+1;
-            }
-            else{
-                return depthRight+1;
+        } else {
+            // 左子树深度（递归调用）
+            depthLeft = treeDepth(treeNode.left);
+            // 右子树深度（递归调用）
+            depthRight = treeDepth(treeNode.right);
+            if (depthLeft > depthRight) {
+                return depthLeft + 1;
+            } else {
+                return depthRight + 1;
             }
         }
     }
 
     /**
      * 清空二叉树
+     *
      * @param treeNode
      */
-    void clear(TreeType treeNode){
-        //如果不为空树
-        if(treeNode!=null){
-            //递归调用
+    void clear(TreeType treeNode) {
+        // 如果不为空树
+        if (treeNode != null) {
+            // 递归清空二叉树
             clear(treeNode.left);
             clear(treeNode.right);
-            //释放当前结点所占内存
-            treeNode=null;
+            // 释放当前结点所占内存
+            treeNode = null;
         }
     }
 
     /**
      * 显示结点数据
+     *
      * @param p
      */
-    void treeNodeData(TreeType p){
+    void treeNodeData(TreeType p) {
         System.out.println(p.data);
     }
 
     /**
      * 按层遍历算法
      * 首先处理第1层即根结点，再处理第1层根结点的左右子树，即第2层...循环处理，就可以逐层遍历
+     *
      * @param treeNode
      */
-    void levelTree(TreeType treeNode){
+    void levelTree(TreeType treeNode) {
         TreeType p;
-        //定义一个顺序栈
-        TreeType[] q=new TreeType[MAXLEN];
-        int head=0,tail=0;
+        // 定义一个顺序栈
+        TreeType[] q = new TreeType[MAXLEN];
+        int head = 0, tail = 0;
 
-        //如果队首引用不为空
-        if(treeNode!=null){
-            //计算循环队列队尾序号
-            tail=(tail+1)%MAXLEN;
-            //将二叉树根引用进队
-            q[tail]=treeNode;
+        // 如果队首引用不为空
+        if (treeNode != null) {
+            // 计算循环队列队尾序号
+            tail = (tail + 1) % MAXLEN;
+            // 将二叉树根引用进队
+            q[tail] = treeNode;
         }
-        //队列不为空，进行循环
-        while(head!=tail){
-            //计算循环队列的队首序号
-            head=(head+1)%MAXLEN;
-            //获取队首元素
-            p=q[head];
-            //处理队首元素
+        // 队列不为空，进行循环
+        while (head != tail) {
+            // 计算循环队列的队首序号
+            head = (head + 1) % MAXLEN;
+            // 获取队首元素
+            p = q[head];
+            // 处理队首元素，输出显示
             treeNodeData(p);
-            //如果结点存在左子树
-            if(p.left!=null){
-                //计算循环队列的队尾序号
-                tail=(tail+1)%MAXLEN;
-                q[tail]=p.left;
+            // 如果结点存在左子树
+            if (p.left != null) {
+                // 计算循环队列的队尾序号
+                tail = (tail + 1) % MAXLEN;
+                q[tail] = p.left;
             }
-            //如果结点存在右子树
-            if(p.right!=null){
-                //计算循环队列的队尾序号
-                tail=(tail+1)%MAXLEN;
-                q[tail]=p.right;
+            // 如果结点存在右子树
+            if (p.right != null) {
+                // 计算循环队列的队尾序号
+                tail = (tail + 1) % MAXLEN;
+                q[tail] = p.right;
             }
         }
     }
 
     /**
-     * 先序遍历算法
+     * 先序遍历算法，根 -> 左 -> 右
+     *
      * @param treeNode
      */
-    void DLRTree(TreeType treeNode){
-        if(treeNode!=null){
-            //显示结点的数据
+    void DLRTree(TreeType treeNode) {
+        if (treeNode != null) {
+            // 显示结点的数据
             treeNodeData(treeNode);
             DLRTree(treeNode.left);
             DLRTree(treeNode.right);
@@ -285,27 +293,27 @@ public class TreeType {
     }
 
     /**
-     * 中序遍历算法
+     * 中序遍历算法，左 -> 根 -> 右
+     *
      * @param treeNode
      */
-    void LDRTree(TreeType treeNode){
-        if(treeNode!=null){
+    void LDRTree(TreeType treeNode) {
+        if (treeNode != null) {
             LDRTree(treeNode.left);
-            //显示结点的数据
             treeNodeData(treeNode);
             LDRTree(treeNode.right);
         }
     }
 
     /**
-     * 后序遍历算法
+     * 后序遍历算法，左 -> 右 -> 根
+     *
      * @param treeNode
      */
-    void LRDTree(TreeType treeNode){
-        if(treeNode!=null){
+    void LRDTree(TreeType treeNode) {
+        if (treeNode != null) {
             LRDTree(treeNode.left);
             LRDTree(treeNode.right);
-            //显示结点的数据
             LRDTree(treeNode);
         }
     }
