@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea500be-9d55-4212-a062-6be0cbb2210e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/hurley.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinearList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTree/src/TreeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/src/TreeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/src/GraphMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/src/GraphMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/src/SLType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/src/LinearListType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/src/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/src/QueueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/QueueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SequentialSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SequentialSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/src/StackType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/StackType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1fXkjWzmGcVdB7AF47edVbNcOAZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />

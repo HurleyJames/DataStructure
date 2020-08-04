@@ -3,7 +3,52 @@
  */
 public class BinarySearch {
 
-    public int binarySearch(int a[], int n, int x) {
+    private int[] array;
+
+    /**
+     * 递归实现二分查找
+     *
+     * @param target
+     * @return
+     */
+    public int binarySearch1(int target) {
+        if (array != null) {
+            return binarySearch1(target, 0, array.length - 1);
+        }
+        return -1;
+    }
+
+    /**
+     * 递归实现二分查找
+     *
+     * @param target
+     * @param start
+     * @param end
+     * @return
+     */
+    public int binarySearch1(int target, int start, int end) {
+        if (start > end) {
+            return -1;
+        }
+        int mid = start + (end - start) / 2;
+        if (array[mid] == target) {
+            return mid;
+        } else if (target < array[mid]) {
+            return binarySearch1(target, start, mid - 1);
+        } else {
+            return binarySearch1(target, mid + 1, end);
+        }
+    }
+
+    /**
+     * 非递归实现二分查找
+     *
+     * @param a
+     * @param n
+     * @param x
+     * @return
+     */
+    public int binarySearch2(int a[], int n, int x) {
         int mid, low, high;
         low = 0;
         high = n - 1;

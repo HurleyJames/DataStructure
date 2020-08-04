@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268a4768-f330-42ba-90bb-ebf2cd5c92ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/dictionaries/hurley.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BinaryTree/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinearList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LinkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Stack/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTree/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTree/src/TreeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTree/src/TreeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraphMatrix/src/GraphMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GraphMatrix/src/GraphMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinearList/src/SLType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinearList/src/LinearListType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/src/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/src/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Queue/src/QueueType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Queue/src/QueueType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/src/SequentialSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/src/SequentialSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/src/DATA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Stack/src/StackType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stack/src/StackType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
