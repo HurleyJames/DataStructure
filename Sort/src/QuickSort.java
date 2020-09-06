@@ -24,18 +24,27 @@ public class QuickSort {
             // 如果当前指针没有重合并且当前右边high指向的值大于t时，向左移动high
             while (low < high && arr[high] >= t) {
                 high--;
+                // 输出每次排序后的序列顺序
             }
             // 将比t小的arr[high]赋值给左边的arr[low]
             arr[low] = arr[high];
+
             // 如果当前指针没有重合并且当前左边low指向的值小于t时，向右移动low
             while (low < high && arr[low] <= t) {
                 low++;
+                // 输出每次排序后的序列顺序
             }
             // 将比t大的arr[low]赋值给右边的arr[high]
             arr[high] = arr[low];
         }
         // 返回此时t在数组中的位置
         arr[low] = t;
+
+        // 输出每次排序后的序列顺序
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+        System.out.println("");
         return high;
     }
 }

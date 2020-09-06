@@ -1,5 +1,6 @@
 /**
  * 插入排序
+ * 时间复杂度：最好为 O(n^2)，最差为 O(n^2)，平均为 O(n^2)。空间复杂度：O(1)
  */
 public class InsertSort {
     public static void insertSort(int[] arr) {
@@ -13,6 +14,12 @@ public class InsertSort {
                 if (arr[j] > arr[i]) {
                     Utils.swap(arr, j, i);
                 }
+
+                // 输出每次排序后的序列顺序
+                for (int num : arr) {
+                    System.out.print(num + " ");
+                }
+                System.out.println("");
             }
         }
     }
