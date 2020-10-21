@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aca71235-2846-4875-b401-7744ae7de2f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/hurley.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearList/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinearList/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/src/Data.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +33,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15344377" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -60,6 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -82,6 +97,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="220" y="36" key="#Project_Structure" timestamp="1602931822425">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="36" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1602931822425" />
     <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596309649363">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -94,9 +113,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="200" y="23" width="1280" height="984" key="SettingsEditor/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1596309940792" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1596309661455">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="361" y="15" width="838" height="885" key="search.everywhere.popup" timestamp="1602931856433">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="361" y="15" width="838" height="885" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1602931856433" />
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1596309661455" />
   </component>
 </project>

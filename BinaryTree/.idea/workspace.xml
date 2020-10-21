@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f778df98-d6ab-42af-8e6f-67da3c9ce6f2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Search/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Search/src/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Sort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +35,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15344377" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -94,54 +92,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="634" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050/-240.-1080.1920.1080@0.0.1680.1050" timestamp="1596365893660" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="80" y="23" width="1280" height="834" key="SettingsEditor" timestamp="1600789474795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="80" y="23" width="1280" height="834" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600789474795" />
+    <state x="80" y="23" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1600788327551" />
+    <state x="0" y="23" width="1440" height="834" key="new project wizard" timestamp="1600789536996">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="23" width="1440" height="834" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1600789536996" />
   </component>
 </project>
