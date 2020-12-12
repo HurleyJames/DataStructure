@@ -43,7 +43,7 @@ public class BinarySearchTree {
     public boolean insertBST(TreeNode treeNode) {
         if (root == null) {
             root = treeNode;
-            return true;
+            return true;z
         }
 
         // 二叉查找树中不准插入重复项

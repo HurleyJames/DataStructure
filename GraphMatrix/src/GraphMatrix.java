@@ -1,3 +1,6 @@
+/**
+ * 图的邻接矩阵形式
+ */
 public class GraphMatrix {
     /**
      * 图的最大顶点数
